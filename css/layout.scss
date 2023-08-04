@@ -8,6 +8,11 @@ html {
   font-size: 16px;
 }
 
+h2 {
+  width: 50%;
+  margin: 5rem;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -18,9 +23,15 @@ li {
 }
 
 .section {
-  width: 100%;
+  width: 100vw;
+  position: relative;
 }
 
 .container {
   width: 90%;
+  margin: 0 auto;
+}
+
+.line {
+  border: 1px dashed black;
 }

@@ -1,0 +1,29 @@
+.blocks__control-panel {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 2vmin;
+}
+
+.blocks__value {
+  text-align: center;
+  padding: 0 1vmin;
+}
+
+.blocks-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1vmin;
+  row-gap: 1vmin;
+  min-height: 20vh;
+  margin-top: 5vmin;
+}
+
+.block {
+  display: flex;
+  height: 5vmin;
+  width: 5vmin;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}

@@ -1,0 +1,43 @@
+.slider {
+  display: flex;
+  width: 80vmin;
+  height: 5vmin;
+  margin: 5vmin auto;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+  cursor: pointer;
+  width: 5vmin;
+  height: 5vmin;
+  font-size: 5vmin;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.slider__list-wrapper {
+  width: 15vmin;
+  overflow: hidden;
+  margin: 0 5vmin;
+}
+
+.slider__list {
+  display: flex;
+  transition: .5s ease-out;
+}
+
+.slider__item {
+  display: flex;
+  flex-shrink: 0;
+  height: 5vmin;
+  width: 5vmin;
+  border: 1px solid black;
+  background: #8bf3d04d;
+  align-items: center;
+  justify-content: center;  
+}
